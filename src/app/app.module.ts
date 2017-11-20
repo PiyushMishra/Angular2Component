@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CardlikeComponent } from './cardlike/cardlike.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardlikeComponent
   ],
   imports: [
     BrowserModule
